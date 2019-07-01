@@ -1,0 +1,157 @@
+.title {
+	font-size: 3rem;
+	font-weight: 400;
+	padding: 7rem 0 5rem 0;
+
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* craete */
+
+.create__text {
+	font-size: 1.4rem;
+	text-align: center;
+	
+	padding: 0 2rem;
+	margin-bottom: 15rem;
+}
+
+.steps {
+	display: flex;
+	justify-content: space-between;
+}
+
+.step {
+	background-color: #181818;
+	color: #eee;
+
+	padding: 2rem;
+	width: 30%;
+}
+.step__image {
+	width: 100%;
+	height: auto;
+}
+.step__title {
+	font-size: 2.4rem;
+	font-weight: 400;
+
+	padding: 3rem 0;
+}
+.step__text {
+	font-size: 1.4rem;
+	line-height: 1.2;
+}
+
+/* project */
+.project {
+	padding: 1rem;
+}
+.project__title {
+	font-size: 2.4rem;
+	font-weight: 400;
+
+	text-align: center;
+	padding: 2rem 0;
+}
+.project__text {
+	font-size: 1.4rem;
+	text-align: center;
+	
+}
+
+.other-project {
+	padding: 7rem 0 4rem 0;
+}
+.other__text {
+	font-size: 1.6rem;
+	text-align: center;
+}
+.link-wrapper {
+	padding-top: 5rem;
+	text-align: center;
+}
+.other__link {
+	text-decoration: none;
+	font-size: 1.4rem;
+
+	border: 1px solid #181818;
+	padding: 1rem 3rem;
+	transition: all .5s;
+}
+.other__link:hover {
+	background-color: #181818;
+	color: #eee;
+}
+
+
+/* material */
+.material {
+	padding-bottom: 5rem;
+}
+.material-list {
+	display: flex;
+	justify-content: space-between;
+}
+.material__item {
+	position: relative;
+	width: 30%;
+	height: 40rem;
+}
+.material__item:nth-child(1) {
+	background: url(../img/Дуб.webp) no-repeat;
+	background-size: cover;
+}.material__item:nth-child(2) {
+	background: url(../img/Бук.webp) no-repeat;
+	background-size: cover;
+}.material__item:nth-child(3) {
+	background: url(../img/Сосна.webp) no-repeat;
+	background-size: cover;
+}
+.material__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+	padding: 1rem;
+
+	background-color: rgba(0,0,0,.3);
+	opacity: 0;
+	transition: .5s;
+}
+.material__item:hover .material__content {
+	opacity: 1;
+}
+.material__title, .material__text {
+	text-align: center;
+	font-size: 2.4rem;
+	font-weight: 400;
+	color: #eee;
+	padding-bottom: 2rem;
+}
+.material__text {
+	font-size: 1.4rem;
+	line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer__image {
+	width: 100%;
+}

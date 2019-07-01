@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap&subset=cyrillic');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+
+	color: #181818;
+}
+body {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 980px;
+}
+
+/* header */
+
+.header {
+	padding: 2rem 0;
+}
+
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo__title {
+	font-size: 2.2rem;
+	font-weight: 400;
+	line-height: 1.4;
+
+	text-transform: uppercase;
+}
+
+.logo__subTitle {
+	font-size: 1.4rem;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.contact__phone, .contact__mail {
+	font-size: 2rem;
+	text-decoration: none;
+	color: #181818;
+}
+.contact__mail {
+	font-size: 1.4rem;
+}
+
+/* nav */
+
+.nav {
+	background-color: #181818;
+
+	padding: 1rem 0;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav__link, .social__link {
+	color: #eee;
+
+	font-size: 1.4rem;
+	text-decoration: none;
+}
+
+.nav__link {
+	margin-right: 1rem;
+}
+
+.social__link {
+	margin-left: 1rem;
+}
+
+/* woood */
+.wood {
+	color: #eee;
+}
+
+.wood__bg {
+	background: url(../img/main-bg.webp) center no-repeat;
+	background-size: cover;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+	z-index: -1;
+}
+
+.wood__content {	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	position: relative;
+
+	background-color: rgba(0,0,0,.2);
+
+	padding: 20rem 0;
+	margin-top: 3rem;
+}
+
+.wood__title {
+	line-height: 1.4;
+	font-size: 7rem;
+	font-weight: 400;
+	text-align: center;
+
+	padding-bottom: 3rem;
+}
+
+.wood__text {
+	line-height: 1.8;
+	font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
