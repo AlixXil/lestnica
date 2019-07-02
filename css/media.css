@@ -1,0 +1,65 @@
+@media (max-width: 800px) {
+	.wood__content {
+		padding: 10rem 0;
+	}
+	.wood__title {
+		line-height: 1.2;
+		font-size: 5rem;
+	}
+	.wood__text {
+		line-height: 1.4;
+		font-size: 1.6rem;
+	}
+
+	.step__title {
+	font-size: 1.8rem;
+	padding-bottom: 0;
+}
+
+	.material-list {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.material__item {
+		width: 60%;
+		height: 30rem;
+	}
+
+	.feedback-wrap {
+		flex-direction: column;
+	}
+	.feedback__row {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 500px) {
+	.material__item {
+		width: 90%;
+	}
+}
+
+@media (max-width: 400px) {
+	.header-wrapper {
+		flex-direction: column;
+	}
+	.logo__title, .logo__subTitle {
+		text-align: center;
+	}
+	.contact {
+		margin-top: 1rem;
+		align-self: flex-end;
+	}
+	.wood__content {
+		padding: 6rem 0;
+	}
+	.wood__title {
+		line-height: 1.2;
+		font-size: 2.4rem;
+	}
+	.wood__text {
+		line-height: 1.2;
+		font-size: 1.4rem;
+	}
+}
