@@ -19,15 +19,16 @@
 
 .steps {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	width: 100%;
 }
 
 .step {
 	background-color: #181818;
 	color: #eee;
 
-	padding: 2rem;
-	width: 30%;
+	padding: 0;
+	width: 33%;
 }
 .step__image {
 	width: 100%;
@@ -37,11 +38,13 @@
 	font-size: 2.4rem;
 	font-weight: 400;
 
-	padding: 3rem 0;
+	padding: 3rem 2rem;
 }
 .step__text {
 	font-size: 1.4rem;
 	line-height: 1.2;
+
+	padding: 2rem;
 }
 
 /* project */
@@ -76,6 +79,7 @@
 	text-decoration: none;
 	font-size: 1.4rem;
 
+	color: #181818;
 	border: 1px solid #181818;
 	padding: 1rem 3rem;
 	transition: all .5s;
@@ -142,16 +146,98 @@
 	line-height: 1.8;
 }
 
+/* feedback */
+.feedback-wrap {
+	display: flex;
 
+	background-color: #181818;
+	color: #eee;
+}
 
+.feedback__left, .feedback__right {
+	flex: 1 1 0;
+	padding: 2rem;
+}
+.feedback__title {
+	padding: 3rem 0;
+}
 
+.feedback__text {
+	font-size: 1.4rem;
+	line-height: 1.6;
 
+	text-align: center;
+}
+
+.feedback__social {
+	text-align: center;
+	padding-top: 4rem;
+}
+
+.feedback__right {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.feedback__right input[type=text], .feedback__right textarea {
+	background-color: transparent;
+	color: #eee;
+	
+	border: none;
+	border-bottom: 2px solid #aaa;
+
+	padding: 2rem 1rem;
+	margin: 0 1rem;
+
+	font-size: 1.6rem;
+	flex: 1 1 100%;
+
+	outline: none;
+}
+
+.feedback__right input[type=text]::placeholder, .feedback__right textarea::placeholder {
+	color: #eee;
+}
+
+.feedback__right input[type=text]:focus, .feedback__right textarea:focus {
+	border-bottom: 2px solid #aaf;
+}
+
+.feedback__row {
+	display: flex;
+}
 
 
 
 
 
 /* footer */
+.footer {
+	padding-bottom: 3rem;
+}
 .footer__image {
 	width: 100%;
+}
+
+.footer__links {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer__home, .footer__mail, .footer__phone, .footer__address, .footer__social .social__link {
+	text-decoration: none;
+	color: #181818;
+	font-size: 1.8rem;
+	line-height: 2;
+}
+.footer__home {
+	padding-top: 7rem;
+	padding-bottom: 2rem;
+	font-size: 2.6rem;
+}
+
+.footer__social {
+
 }
