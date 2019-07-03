@@ -72,7 +72,57 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	position: relative;
 }
+
+/* burger */
+.burger-button {
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+	width: 2rem;
+}
+.burger-button.x {
+	position: relative;
+	height: 1.7rem;
+}
+.burger-button.x .burger-button__row {
+	position: absolute;
+	
+	top: 50%;
+
+	margin: 0;
+	padding: 0;
+
+	transform-origin: center center;
+}
+
+.burger-button.x .burger-button__row:nth-child(1){
+	transform: rotate(45deg);
+}
+.burger-button.x .burger-button__row:nth-child(2){
+	opacity: 0;
+}
+.burger-button.x .burger-button__row:nth-child(3){
+	transform: rotate(-45deg);	
+}
+.burger-button__row {
+	background-color: #eee;
+	height: 2px;
+	width: 2rem;
+	margin: 2px 0;
+
+	transition: all .5s;
+}
+
+.links {
+	display: block;
+} 
+
 
 .nav__link, .social__link {
 	color: #eee;

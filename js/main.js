@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    $('.burger-button').on('click', burgerClick);
+
   $('.project-slider').slick({
     autoplay: false,
     arrows: false,
@@ -40,3 +42,8 @@ $(document).ready(function(){
 
   $('.project__images').fotorama();
 });
+
+function burgerClick() {
+    $('.burger-button').toggleClass('x');
+    $('.links').toggleClass('show');
+}

@@ -35,6 +35,36 @@
 }
 
 @media (max-width: 500px) {
+	.burger-button {
+		display: flex;
+	}
+	.links {
+		display: none;
+		
+		position: absolute;
+	}
+	.show {
+	display: flex;
+	flex-direction: column;
+	top: 2rem;
+
+	background-color: #181818;
+	padding: 1rem;
+	line-height: 2;
+
+	z-index: 2;
+}
+.wood__content {
+		padding: 6rem 0;
+	}
+	.wood__title {
+		line-height: 1.2;
+		font-size: 2.4rem;
+	}
+	.wood__text {
+		line-height: 1.2;
+		font-size: 1.4rem;
+	}
 	.material__item {
 		width: 90%;
 	}
@@ -51,15 +81,5 @@
 		margin-top: 1rem;
 		align-self: flex-end;
 	}
-	.wood__content {
-		padding: 6rem 0;
-	}
-	.wood__title {
-		line-height: 1.2;
-		font-size: 2.4rem;
-	}
-	.wood__text {
-		line-height: 1.2;
-		font-size: 1.4rem;
-	}
+	
 }
