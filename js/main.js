@@ -1,6 +1,10 @@
 $(document).ready(function(){
     $('.burger-button').on('click', burgerClick);
 
+    sliders();
+});
+
+async function sliders() {
   $('.project-slider').slick({
     autoplay: false,
     arrows: false,
@@ -41,7 +45,7 @@ $(document).ready(function(){
   });
 
   $('.project__images').fotorama();
-});
+};
 
 function burgerClick() {
     $('.burger-button').toggleClass('x');
